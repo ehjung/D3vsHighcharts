@@ -23,6 +23,10 @@ body {
   stroke: #ccc;
 }
 
+.axis {
+  font: 10px sans-serif;
+}
+
 .axis path,
 .axis line {
   fill: none;
@@ -38,4 +42,12 @@ body {
   fill: none;
   stroke: steelblue;
   stroke-width: 1.5px;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
 }
